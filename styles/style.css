@@ -135,6 +135,9 @@
 .subtitle {
   margin-bottom: 10px;
 }
+.subtitle-margin {
+  margin-bottom: 20px;
+}
 
 .card__content {
   margin-bottom: 20px;
@@ -244,6 +247,9 @@ img {
   .content__title {
     margin-bottom: 0;
   }
+  .title-special {
+    width: min-content;
+  }
 
   .title-margin {
     margin-bottom: 20px;
@@ -319,6 +325,11 @@ img {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
+
+  .title-special {
+    width: 33%;
+  }
+
   .gallery__conteiner {
     max-height: 1050px;
   }
