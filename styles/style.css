@@ -220,7 +220,7 @@ img {
 
   .header__title {
     margin-left: -20px;
-    font-size: (7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     line-height: 99px;
   }
 
@@ -263,12 +263,14 @@ img {
   .gallery__title {
     margin-bottom: 20px;
   }
+
   .gallery__conteiner {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 20px;
     margin-bottom: 60px;
+    max-height: 780px;
   }
 
   .first__img {
@@ -315,6 +317,9 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+  }
+  .gallery__conteiner {
+    max-height: 1050px;
   }
 
   .footer__title {
