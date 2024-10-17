@@ -14,6 +14,9 @@
   background-repeat: no-repeat;
   min-height: 668px;
 }
+p {
+  line-height: 1.3;
+}
 
 .header {
   position: relative;
@@ -126,6 +129,8 @@
 
 .content__title {
   color: var(--accent-color);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
   margin-bottom: 20px;
 }
 .content {

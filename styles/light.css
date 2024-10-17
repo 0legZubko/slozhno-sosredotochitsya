@@ -17,7 +17,7 @@
   --hover-color: rgba(50, 49, 45, 0.4);
   --font-style: "IBM Plex mono", sans-serif;
   --font-size: 18px;
-  --line-height: 1.3;
+  --line-height: 23.4px;
   --font-bold: 700;
   --font-regular: 400;
 }
@@ -36,7 +36,7 @@
     --hover-color: rgba(50, 49, 45, 0.4);
     --font-style: "IBM Plex mono", sans-serif;
     --font-size: 18px;
-    --line-height: 1.3;
+    --line-height: 23.4px;
     --font-bold: 700;
     --font-regular: 400;
   }
