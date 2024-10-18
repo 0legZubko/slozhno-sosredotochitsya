@@ -20,6 +20,7 @@
   --line-height: 23.4px;
   --font-bold: 700;
   --font-regular: 400;
+  --nav-color: #353430;
 }
 
 .page.theme_light .header__rec {
@@ -39,6 +40,7 @@
     --line-height: 23.4px;
     --font-bold: 700;
     --font-regular: 400;
+    --nav-color: #353430;
   }
 
   .page.theme_auto .header__rec {
