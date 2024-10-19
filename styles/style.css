@@ -147,7 +147,7 @@
   margin-bottom: 20px;
 }
 
-.card__content {
+.card__content:not(:last-of-type) {
   margin-bottom: 20px;
 }
 
@@ -276,10 +276,6 @@ img {
   }
   section:not(:last-of-type) {
     margin-bottom: 80px;
-  }
-
-  .what__card__content:last-of-type {
-    margin-bottom: 0;
   }
 
   .section-how {
