@@ -129,7 +129,7 @@
 }
 
 .section__title {
-  color: var(--accent-color);
+  color: var(--section__title-color);
   font-size: var(--font-size);
   line-height: var(--line-height);
   margin-bottom: 20px;
@@ -175,29 +175,10 @@ p:not(:last-child) {
 }
 
 img {
+  display: block;
   object-fit: cover;
   height: 100%;
   width: 100%;
-}
-
-.first__img {
-  min-height: 142px;
-}
-
-.second__img {
-  min-height: 355px;
-}
-
-.third__img {
-  min-height: 237px;
-}
-
-.fourth__img {
-  min-height: 355px;
-}
-
-.fifth__img {
-  min-height: 237px;
 }
 
 .footer {
@@ -241,6 +222,8 @@ img {
 
   .header {
     min-height: 1024px;
+    padding: min(2.666vi, 20px);
+    margin-bottom: 60px;
   }
 
   .header__rec {
@@ -256,11 +239,6 @@ img {
   .decorated-zone::after {
     inset-block-end: min(2.666vi, 20px);
     inset-inline-start: min(2.666vi, 20px);
-  }
-
-  .header {
-    padding: min(2.666vi, 20px);
-    margin-bottom: 60px;
   }
 
   .header__title {
@@ -321,7 +299,6 @@ img {
   .gallery__conteiner {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
     gap: 20px;
     margin-bottom: 60px;
   }
